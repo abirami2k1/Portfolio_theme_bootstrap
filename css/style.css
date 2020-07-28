@@ -1,0 +1,42 @@
+#main-header{
+    width: 100%;
+    height: 100%;
+}
+
+#main-header .black{
+    background-color: black;
+}
+#main-header .icons{
+    height: 124.5px;
+    width: 30%;
+}
+
+#main-header .icons:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+#work img{
+    width: auto;
+    height: 180px;
+}
+
+#abc:hover{
+ background-color: white !important;
+ color: black !important;
+
+}
+
+@media(min-width:991px){
+    #main-header .icons{
+        height: 65.5px !important;
+
+
+    }
+}
+@media(min-width:1199px){
+    #main-header .icons{
+        height: 124.5px !important; 
+
+    }
+}
+
